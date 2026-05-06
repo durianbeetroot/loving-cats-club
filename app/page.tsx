@@ -5,6 +5,7 @@ import MoreFromUs from "@/app/components/morefromus";
 import YourCat from "./components/yourcat";
 import Hero from "./components/hero";
 import CatCommunity from "./components/catcommunity";
+import JoinUS from "./components/joinus";
 
 export default function Home() {
   return (
@@ -16,6 +17,7 @@ export default function Home() {
       <MoreFromUs />
       <CatCommunity />
       <Footer />
+      <JoinUS />
       
     </main>
   );
