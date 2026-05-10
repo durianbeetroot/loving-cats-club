@@ -1,6 +1,6 @@
 export default function MoreFromUs() {
   return (
-    <section className="bg-gray-100 py-16 px-6">
+    <section id="posts" className="bg-gray-100 py-16 px-6">
       <div className="max-w-7xl mx-auto">
         
         {/* Title */}
@@ -13,7 +13,7 @@ export default function MoreFromUs() {
         <div className="flex gap-6 overflow-x-auto pb-4 scrollbar-hide">
           
           {/* Card 1 */}
-          <div className="min-w-[320px] max-w-[320px] flex-shrink-0">
+          <div className="min-w-[320px] max-w-[320px] shrink-0">
             <div className="relative rounded-lg overflow-hidden">
               <img
                 src="/taking-cat-to-vet.jpg"
@@ -35,7 +35,7 @@ export default function MoreFromUs() {
           </div>
 
           {/* Card 2 */}
-          <div className="min-w-[320px] max-w-[320px] flex-shrink-0">
+          <div className="min-w-[320px] max-w-[320px] shrink-0">
             <div className="relative rounded-lg overflow-hidden">
               <img
                 src="/cat-bath.png"

@@ -2,7 +2,7 @@ import Image from "next/image";
 
 export default function YourCat() {
   return (
-    <section className="w-full bg-gray-100 py-12 px-6 flex justify-center">
+    <section id="help" className="w-full bg-gray-100 py-12 px-6 flex justify-center">
       <div className="max-w-6xl w-full grid md:grid-cols-2 gap-8 items-center">
         
         {/* Left Content */}
