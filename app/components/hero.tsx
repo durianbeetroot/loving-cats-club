@@ -24,7 +24,7 @@ export default function Hero() {
           </div>
 
           {/* Top Right Cat */}
-          <div className="relative w-full h-[200px]">
+          <div className="relative w-full h-50">
             <Image
               src="/cat-standing.png"
               alt="Standing Cat"
@@ -35,7 +35,7 @@ export default function Hero() {
         </div>
 
         {/* Bottom Image */}
-        <div className="mt-10 relative w-full h-[300px] md:h-[400px] bg-yellow-500 rounded-xl overflow-hidden">
+        <div className="mt-10 relative w-full h-75 md:h-100 bg-yellow-500 rounded-xl overflow-hidden">
           <Image
             src="/cat-peek.png"
             alt="Cat Peeking"

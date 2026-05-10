@@ -7,6 +7,16 @@ import { useState } from "react";
 export default function Header() {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
 
+  const scrollToSection = (id: string) => {
+    const section = document.getElementById(id);
+
+    if (section) {
+      section.scrollIntoView({
+        behavior: "smooth",
+      });
+    }
+  };
+
   return (
     <header className="w-full bg-gray-200 px-6 py-4 relative">
       <div className="flex items-center justify-between max-w-7xl mx-auto">
@@ -19,15 +29,33 @@ export default function Header() {
         {/* Right - Navigation */}
         {/* Desktop */}
         <nav className="hidden md:flex items-center gap-6 text-sm text-teal-700">
-          <Link href="/pet-store" className="hover:underline">
-            Pet Store
-          </Link>
-          <Link href="/adoption" className="hover:underline">
-            Adoption
-          </Link>
-          <Link href="/cat-profile" className="hover:underline">
-            Cat Profile
-          </Link>
+          <button
+            onClick={() => scrollToSection("breeds")}
+            className="hover:underline"
+          >
+            Breeds
+          </button>
+
+          <button
+            onClick={() => scrollToSection("help")}
+            className="hover:underline"
+          >
+            Help
+          </button>
+
+          <button
+            onClick={() => scrollToSection("posts")}
+            className="hover:underline"
+          >
+            Posts
+          </button>
+
+          <button
+            onClick={() => scrollToSection("community")}
+            className="hover:underline"
+          >
+            Community
+          </button>
 
           <button className="bg-teal-700 text-white px-4 py-1.5 rounded-md hover:bg-teal-800">
             Log In

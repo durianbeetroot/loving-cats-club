@@ -20,7 +20,7 @@ export default function CatCommunity() {
   ];
 
   return (
-    <section className="bg-gray-100 py-16 px-6">
+    <section id="community" className="bg-gray-100 py-16 px-6">
       <div className="max-w-7xl mx-auto">
         
         {/* Title */}
