@@ -16,8 +16,8 @@ export default function Home() {
       <YourCat />
       <MoreFromUs />
       <CatCommunity />
-      <Footer />
       <JoinUs />
+      <Footer />
       
     </main>
   );
