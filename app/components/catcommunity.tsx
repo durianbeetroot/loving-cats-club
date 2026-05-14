@@ -54,7 +54,7 @@ export default function CatCommunity() {
               </div>
 
               <Image
-                    src="/paws.png"
+                    src="/paws.webp"
                     alt="Paw"
                     width={48}
                     height={48}

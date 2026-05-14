@@ -1,3 +1,5 @@
+import Image from "next/image";
+
 export default function MoreFromUs() {
   return (
     <section id="posts" className="bg-gray-100 py-16 px-6">
@@ -14,10 +16,13 @@ export default function MoreFromUs() {
           
           {/* Card 1 */}
           <div className="min-w-[320px] max-w-[320px] shrink-0">
-            <div className="relative rounded-lg overflow-hidden">
-              <img
-                src="/taking-cat-to-vet.jpg"
-                className="w-full h-48 object-cover"
+            {/* Image */}
+            <div className="relative rounded-lg overflow-hidden w-full h-48">
+              <Image
+                src="/taking-cat-to-vet.webp"
+                className="object-cover"
+                fill
+                sizes="min-w-[320px] max-w-[320px]"
                 alt="Vet Cat"
               />
               {/* right accent line */}
@@ -36,10 +41,12 @@ export default function MoreFromUs() {
 
           {/* Card 2 */}
           <div className="min-w-[320px] max-w-[320px] shrink-0">
-            <div className="relative rounded-lg overflow-hidden">
-              <img
-                src="/cat-bath.png"
-                className="w-full h-48 object-cover"
+            <div className="relative rounded-lg overflow-hidden w-full h-48">
+              <Image
+                src="/cat-bath.webp"
+                className="object-cover"
+                fill
+                sizes="min-w-[320px] max-w-[320px]"
                 alt="Wet Cat"
               />
               <div className="absolute right-0 top-0 h-full w-1 bg-pink-400"></div>

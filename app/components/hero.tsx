@@ -26,9 +26,10 @@ export default function Hero() {
           {/* Top Right Cat */}
           <div className="relative w-full h-50">
             <Image
-              src="/cat-standing.png"
+              src="/cat-standing.webp"
               alt="Standing Cat"
               fill
+              sizes="(max-width: 768px) 100vw, 50vw"
               className="object-contain"
             />
           </div>
@@ -37,9 +38,10 @@ export default function Hero() {
         {/* Bottom Image */}
         <div className="mt-10 relative w-full h-75 md:h-100 bg-yellow-500 rounded-xl overflow-hidden">
           <Image
-            src="/cat-peek.png"
+            src="/cat-peek.webp"
             alt="Cat Peeking"
             fill
+            sizes="(max-width: 768px) 100vw, 50vw"
             className="object-cover"
           />
         </div>

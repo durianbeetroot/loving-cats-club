@@ -47,11 +47,12 @@ export default function YourCat() {
         </div>
 
         {/* Right Image */}
-        <div className="relative w-full h-100">
+        <div className="relative w-full h-130">
           <Image
-            src="/yourcat.png"
+            src="/yourcat.webp"
             alt="Cat"
             fill
+            sizes="(max-width: 768px) 100vw, 50vw"
             className="object-cover rounded-lg"
           />
         </div>
