@@ -1,5 +1,5 @@
 import type { Metadata } from "next";
-import { Geist, Geist_Mono, Inter, Limelight } from "next/font/google";
+import { Geist, Geist_Mono, Inter } from "next/font/google";
 import "./globals.css";
 
 const geistSans = Geist({
@@ -17,11 +17,6 @@ const inter = Inter({
   subsets: ["latin"],
 });
 
-const limelight = Inter({
-  variable: "--font-limelight",
-  subsets: ["latin"],
-});
-
 export const metadata: Metadata = {
   title: "Loving Cats Club",
   description: "Pet platform",
@@ -36,10 +31,9 @@ export default function RootLayout({
     <html
       lang="en"
       className={`
-      ${geistSans.variable}
-      ${geistMono.variable}
-      ${inter.variable}
-      ${limelight.variable}
+        ${geistSans.variable}
+        ${geistMono.variable}
+        ${inter.variable}
       `}
     >
       <body>{children}</body>

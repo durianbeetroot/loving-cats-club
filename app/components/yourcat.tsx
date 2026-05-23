@@ -40,7 +40,7 @@ export default function YourCat() {
             <button className="bg-teal-700 text-white px-4 py-2 rounded-md">
               Call us
             </button>
-            <button className="bg-yellow-600 text-white px-4 py-2 rounded-md">
+            <button className="bg-[#B7AB8F] text-white px-4 py-2 rounded-md">
               Get Professional Help
             </button>
           </div>

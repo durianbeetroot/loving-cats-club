@@ -18,7 +18,7 @@ export default function Header() {
   };
 
   return (
-    <header className="w-full bg-gray-200 px-6 py-4 relative">
+    <header className="w-full bg-[#e8e3db] px-6 py-6 relative">
       <div className="flex items-center justify-between max-w-7xl mx-auto">
         
         {/* Left - Logo */}
@@ -76,16 +76,34 @@ export default function Header() {
 
       {/* Mobile Menu */}
       {isMenuOpen && (
-        <nav className="md:hidden absolute right-4 top-full mt-2 w-36 bg-gray-200 rounded-lg shadow-lg p-4 flex flex-col gap-4 text-teal-700 text-right z-50">
-          <Link href="/pet-store" onClick={() => setIsMenuOpen(false)}>
-            Pet Store
-          </Link>
-          <Link href="/adoption" onClick={() => setIsMenuOpen(false)}>
-            Adoption
-          </Link>
-          <Link href="/cat-profile" onClick={() => setIsMenuOpen(false)}>
-            Cat Profile
-          </Link>
+        <nav className="md:hidden absolute right-4 top-full mt-2 w-36 bg-[#e8e3db] rounded-lg shadow-lg p-4 flex flex-col gap-4 text-teal-700 text-right z-50">
+          <button
+            onClick={() => scrollToSection("breeds")}
+            className="hover:underline"
+          >
+            Breeds
+          </button>
+
+          <button
+            onClick={() => scrollToSection("help")}
+            className="hover:underline"
+          >
+            Help
+          </button>
+
+          <button
+            onClick={() => scrollToSection("posts")}
+            className="hover:underline"
+          >
+            Posts
+          </button>
+
+          <button
+            onClick={() => scrollToSection("community")}
+            className="hover:underline"
+          >
+            Community
+          </button>
 
           <button className="bg-teal-700 text-white px-4 py-2 rounded-md w-full self-end">
             Log In
