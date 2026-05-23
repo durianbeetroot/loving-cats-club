@@ -14,7 +14,7 @@ export default function JoinUs() {
             Log In
           </button>
 
-          <button className="bg-yellow-600 text-gray-900 px-5 py-2 rounded-md hover:bg-yellow-700 transition">
+          <button className="bg-stone-300 text-gray-900 px-5 py-2 rounded-md hover:bg-stone-400 transition">
             Sign Up
           </button>
         </div>
