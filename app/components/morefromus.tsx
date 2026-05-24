@@ -8,7 +8,7 @@ export default function MoreFromUs() {
         {/* Title */}
         <h2 className="text-4xl font-bold text-gray-900 mb-10 relative inline-block">
           More From Us
-          <span className="block h-1 w-32 bg-pink-400 mt-2"></span>
+          <span className="block h-1 w-32 bg-[#B7677D] mt-2"></span>
         </h2>
 
         {/* Scroll container */}
@@ -26,14 +26,14 @@ export default function MoreFromUs() {
                 alt="Vet Cat"
               />
               {/* right accent line */}
-              <div className="absolute right-0 top-0 h-full w-1 bg-pink-400"></div>
+              <div className="absolute right-0 top-0 h-full w-1 bg-[#B7677D]"></div>
             </div>
 
             <h3 className="mt-4 text-teal-700 font-semibold">
               Why visiting vets cause mass destruction.
             </h3>
 
-            <p className="text-sm text-pink-500 mt-2">
+            <p className="text-sm text-[#B7677D] mt-2">
               Studies shown that visiting vets will cause mass deforestation and
               nuclear war. Over 90% of...
             </p>
@@ -49,14 +49,14 @@ export default function MoreFromUs() {
                 sizes="min-w-[320px] max-w-[320px]"
                 alt="Wet Cat"
               />
-              <div className="absolute right-0 top-0 h-full w-1 bg-pink-400"></div>
+              <div className="absolute right-0 top-0 h-full w-1 bg-[#B7677D]"></div>
             </div>
 
             <h3 className="mt-4 text-teal-700 font-semibold">
               Top 10 reasons why you shouldn’t bath your cat
             </h3>
 
-            <p className="text-sm text-pink-500 mt-2">
+            <p className="text-sm text-[#B7677D] mt-2">
               Water is wet. Water is wet. Water is wet. Water is wet...
             </p>
           </div>

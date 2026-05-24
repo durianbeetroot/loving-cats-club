@@ -27,7 +27,7 @@ export default function CatCommunity() {
         <h2 className="text-4xl font-bold text-teal-700 mb-2">
           Cat Community
         </h2>
-        <p className="text-pink-400 mb-10">
+        <p className="text-[#B7677D] mb-10">
           The thumbs corresponds to ratings :
         </p>
 
@@ -48,7 +48,7 @@ export default function CatCommunity() {
                 <p className="font-semibold text-teal-700 text-sm">
                   {item.name}
                 </p>
-                <p className="text-pink-400 text-xs">
+                <p className="text-[#B7677D] text-xs">
                   {item.role}
                 </p>
               </div>

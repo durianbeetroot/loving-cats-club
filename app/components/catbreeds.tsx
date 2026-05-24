@@ -36,7 +36,7 @@ export default function CatBreeds() {
         {/* Title */}
         <h2 className="text-4xl font-bold text-gray-900 mb-12 relative inline-block">
           Cat Breeds
-          <span className="block h-1 w-24 bg-pink-400 mt-2"></span>
+          <span className="block h-1 w-24 bg-[#B7677D] mt-2"></span>
         </h2>
 
         {/* Content */}
@@ -79,7 +79,7 @@ export default function CatBreeds() {
                   </div>
                 </div>
 
-                <div className="text-sm text-pink-500">
+                <div className="text-sm text-[#B7677D]">
                   <h3 className="font-semibold text-teal-700 mb-2">
                     {cat.title}
                   </h3>

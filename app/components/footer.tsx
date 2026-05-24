@@ -9,42 +9,42 @@ export default function Footer() {
             Loving Cats Club
           </h2>
 
-          <div className="flex space-x-4 text-pink-400">
+          <div className="flex space-x-4 text-[#B7677D]">
             {/* Replace with real icons if needed */}
-            <a href="#" className="hover:text-pink-600">F</a>
-            <a href="#" className="hover:text-pink-600">in</a>
-            <a href="#" className="hover:text-pink-600">Y</a>
-            <a href="#" className="hover:text-pink-600">IG</a>
+            <a href="#" className="hover:text-[#B7677D]">F</a>
+            <a href="#" className="hover:text-[#B7677D]">in</a>
+            <a href="#" className="hover:text-[#B7677D]">Y</a>
+            <a href="#" className="hover:text-[#B7677D]">IG</a>
           </div>
         </div>
 
         {/* Column 1 */}
         <div>
           <h3 className="text-teal-600 font-medium mb-3">Topic</h3>
-          <ul className="space-y-2 text-pink-400">
-            <li><a href="#" className="hover:text-pink-600">Cat Food</a></li>
-            <li><a href="#" className="hover:text-pink-600">Cat Drink</a></li>
-            <li><a href="#" className="hover:text-pink-600">Cat Snacks</a></li>
+          <ul className="space-y-2 text-[#B7677D]">
+            <li><a href="#" className="hover:text-[#B7677D]">Cat Food</a></li>
+            <li><a href="#" className="hover:text-[#B7677D]">Cat Drink</a></li>
+            <li><a href="#" className="hover:text-[#B7677D]">Cat Snacks</a></li>
           </ul>
         </div>
 
         {/* Column 2 */}
         <div>
           <h3 className="text-teal-600 font-medium mb-3">Topic</h3>
-          <ul className="space-y-2 text-pink-400">
-            <li><a href="#" className="hover:text-pink-600">Veterinarian Clinic</a></li>
-            <li><a href="#" className="hover:text-pink-600">Cat Shelter</a></li>
-            <li><a href="#" className="hover:text-pink-600">Cat Hotel</a></li>
+          <ul className="space-y-2 text-[#B7677D]">
+            <li><a href="#" className="hover:text-[#B7677D]">Veterinarian Clinic</a></li>
+            <li><a href="#" className="hover:text-[#B7677D]">Cat Shelter</a></li>
+            <li><a href="#" className="hover:text-[#B7677D]">Cat Hotel</a></li>
           </ul>
         </div>
 
         {/* Column 3 */}
         <div>
           <h3 className="text-teal-600 font-medium mb-3">Topic</h3>
-          <ul className="space-y-2 text-pink-400">
-            <li><a href="#" className="hover:text-pink-600">Cat Photos</a></li>
-            <li><a href="#" className="hover:text-pink-600">Cat Videos</a></li>
-            <li><a href="#" className="hover:text-pink-600">Cat Cat</a></li>
+          <ul className="space-y-2 text-[#B7677D]">
+            <li><a href="#" className="hover:text-[#B7677D]">Cat Photos</a></li>
+            <li><a href="#" className="hover:text-[#B7677D]">Cat Videos</a></li>
+            <li><a href="#" className="hover:text-[#B7677D]">Cat Cat</a></li>
           </ul>
         </div>
 

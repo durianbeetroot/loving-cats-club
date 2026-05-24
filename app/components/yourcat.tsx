@@ -8,28 +8,28 @@ export default function YourCat() {
         {/* Left Content */}
         <div>
           <h1 className="text-4xl md:text-5xl font-bold text-gray-900 leading-tight">
-            Your cat will <span className="underline decoration-pink-400">murder</span>{" "}
-            <span className="text-yellow-700">you.</span>
+            Your cat will <span className="underline decoration-[#B7677D]">murder</span>{" "}
+            <span className="text-[#B7AB8F]">you.</span>
           </h1>
 
           <div className="mt-6 space-y-4 text-sm">
             <p className="text-teal-700 font-medium">This is not a ruse.</p>
 
-            <p className="text-pink-500">
+            <p className="text-[#B7677D]">
               Your cat will suffocate you at night with their poop stained fur.
               Save yourselves.
             </p>
 
             <p className="text-teal-700 font-medium mt-4">Feed your cats.</p>
 
-            <p className="text-pink-500">
+            <p className="text-[#B7677D]">
               Studies shown that by feeding them after you already fed them
               decreases your chance of death.
             </p>
 
             <p className="text-teal-700 font-medium mt-4">Give up.</p>
 
-            <p className="text-pink-500">
+            <p className="text-[#B7677D]">
               Forget working, your laptop is theirs. Your couch is theirs. You
               own nothing. You are nothing.
             </p>
